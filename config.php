@@ -7,7 +7,7 @@
     try {
         $pdo = new PDO("mysql:host={$servidor};dbname={$banco};port=8889;charset=utf8;",$usuario,$senha);
     } catch (Exception $e) {
-        echo "<p>Erro ao tentar conectar</p>";
+        echo "<p>ERROU Seu Burro</p>";
         echo $e->getMessage();
     }
 
